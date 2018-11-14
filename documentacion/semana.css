@@ -1,0 +1,124 @@
+body{
+  background-color: #020714;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.centrado{
+  margin-top: 150px;
+
+  color: white;
+  height: 100%;
+  padding: 0 6% 0 6%;
+}
+.topbar{
+
+  overflow: hidden;
+  max-height: 80px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: (0,0,0,0);
+  color: #00afff;
+  height: 80px;
+  z-index: 10;
+  border-bottom: 3px solid;
+  border-color: #00afff;
+
+
+}
+.tools{
+
+  position: relative;
+  float: right;
+  height: 100%;
+}
+.tools ul{
+  height: 80px;
+
+  margin-right: 50px;
+}
+.principal h1{
+
+
+
+  display: block;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #00afff;
+}
+.principal{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left:  30px;
+  height: 50%;
+
+
+}
+
+.centrado{
+  position: relative;
+  height: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.titulo{
+  position: relative;
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.subtitulos{
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+.sub{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bloque{
+  position: relative;
+  width: 50%;
+}
+
+.fuentes{
+  font-size: 10px;
+  text-align: right;
+}
+
+li{
+  display: inline-block;
+  height: 100%;
+  border: 2px;
+  border-radius: 5px;
+
+  height: 50px;
+  padding-right:  12px;
+}
+li a{
+    position: relative;
+      top: 17px;
+
+}
+.toolsM{
+  height: 100%;
+  text-decoration: none;
+  color: #00afff;
+  margin-left: 13px;
+  font-weight: bold;
+}
+.toolsM:hover{
+  color: yellow;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}

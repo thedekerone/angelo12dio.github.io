@@ -1,0 +1,20 @@
+@-webkit-keyframes css-animation-fade{
+  from{left:100%;}
+
+  to{left:0%;}
+}
+@-webkit-keyframes css-animation-fade2{
+  from{left:0%;}
+
+  to{left:-100%;}
+}
+@-webkit-keyframes css-animation-fade3{
+  from{left:-100%;}
+
+  to{left:0%;}
+}
+@-webkit-keyframes css-animation-fade4{
+  from{left:0%;}
+
+  to{left:100%;}
+}

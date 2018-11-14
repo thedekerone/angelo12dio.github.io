@@ -1,0 +1,224 @@
+body{
+
+  font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    background-color: #020714;
+    color: #f1cd00;
+
+}
+.topbar{
+  display: none;
+  overflow: hidden;
+  max-height: 80px;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: (0,0,0,0);
+  color: #00afff;
+  height: 80px;
+  z-index: 10;
+  border-bottom: 3px solid;
+  border-color: #00afff;
+
+
+}
+.tools{
+
+  position: relative;
+  float: right;
+  height: 100%;
+}
+.tools ul{
+  height: 80px;
+
+  margin-right: 50px;
+}
+.principal h1{
+
+
+
+  display: block;
+  font-size: 30px;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #00afff;
+}
+.principal{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left:  30px;
+  height: 50%;
+
+
+}
+
+li{
+  display: inline-block;
+  height: 100%;
+  border: 2px;
+  border-radius: 5px;
+
+  height: 50px;
+  padding-right:  12px;
+}
+li a{
+    position: relative;
+      top: 17px;
+
+}
+.toolsM{
+  height: 100%;
+  text-decoration: none;
+  color: #00afff;
+  margin-left: 13px;
+  font-weight: bold;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 29px;
+  padding-top: 12px;
+}
+.mainS{
+  padding-bottom: 50px;
+  margin-top: 130px;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  background-color: #020714;
+
+}
+
+.info {
+  font-family: 'Cabin Sketch', cursive;
+    font-weight: normal;
+  font-size: 70px;
+  display: inline;
+
+}
+.documentacion .info{
+    font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+
+}
+#alter{
+  font-size: 32px;
+}
+.documentacion{
+  padding-top: 40px;
+  text-align: center;
+  background: white;
+  color: black;
+  width: 100%;
+  height: 710px;
+  overflow: hidden;
+}
+hr{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+.mainS hr{
+  position: relative;
+  width: 30%;
+  border: none;
+  height: 7px;
+  background-color: white;
+}
+.icono::after{
+  content:" ";
+  display: inline-block;
+  position: relative;
+  top: -27px;
+  font-size: 1.5em;
+  padding: 3px 1.75em;
+  background: #020714 url(../iconos/chip.png) no-repeat center center;
+  background-size: 64px 64px;
+  height: 50px;
+  width: 55px;
+}
+.contenedor{
+  display: inline;
+  margin-top: 40px;
+}
+  td:hover{
+    -webkit-transform: scale(1.1);
+    cursor: pointer;
+  }
+td{
+  z-index: 25;
+  font-size: 25px;
+  position: relative;
+  display: inline-block;
+  height: 220px;
+  width: 220px;
+  border: 12px;
+  border-color: black;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0px 15px 30px 15px;
+  -webkit-transition: -webkit-transform 0.9s ease;
+
+}
+.division{
+  display: block;
+  position: absolute;
+  width: 100%;
+  margin-top: 355px;
+  z-index: 23;
+
+
+}
+#uno{
+  position: relative;
+  max-height: 100px;
+    max-width:  100px;
+    left: 620px;
+}
+#dos{
+  position: relative;
+
+  transform: rotate(180deg);
+  max-height: 100px;
+  max-width:  100px;
+    right: 620px;
+}
+.flecha:hover{
+  cursor: pointer;
+}
+.mover{
+  display: inline-block;
+  width: 100%;
+
+  position: relative;
+  left: 0%;
+
+}
+#mover2{
+    position: absolute;
+    left: 100%;
+}
+.slade{
+  position: absolute;
+  width: 100%;
+overflow: hidden;
+  background-color: white;
+
+}
+.toolsM:hover{
+  color: yellow;
+}
+.slink{
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0%;
+  width: 100%;
+}
+.equipo{
+
+  height: 800px;
+  width: 100%;
+}
