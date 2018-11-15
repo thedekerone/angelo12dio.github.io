@@ -116,6 +116,7 @@ li a{
   overflow: hidden;
 }
 hr{
+  overflow: visible;
   margin-top: 50px;
   margin-bottom: 50px;
   width: 80%;
