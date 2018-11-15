@@ -122,3 +122,17 @@ img{
   margin-right: auto;
   margin-top: 10px;
 }
+.cuadro{
+  display: inline-block;
+}
+#ensamblaje1{
+  position: relative;
+  right: -100px;
+  margin-top: 0;
+}
+#ensamblaje2{
+  position: absolute;
+  left: 600px;
+  margin-top: 0;
+}
+
