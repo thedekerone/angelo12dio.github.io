@@ -231,4 +231,5 @@ overflow: hidden;
 .figuras{
   position: relative;
   top: 20px;
+  z-index: -99;
 }
