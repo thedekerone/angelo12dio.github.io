@@ -233,3 +233,22 @@ overflow: hidden;
   top: 20px;
   z-index: -99;
 }
+#tnosotros{
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  font-weight: bold;
+
+
+}
+.dequipo{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #00afff;
+
+}
+.dintegrantes{
+  text-align: center;
+  color: white;
+}
