@@ -147,6 +147,7 @@ hr{
   td:hover{
     -webkit-transform: scale(1.1);
     cursor: pointer;
+    color: #00afff;
   }
 td{
   z-index: 25;
