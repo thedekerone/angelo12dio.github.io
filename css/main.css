@@ -163,6 +163,9 @@ td{
   -webkit-transition: -webkit-transform 0.9s ease;
 
 }
+td:hover{
+  border-color: #00afff;
+}
 .division{
   display: block;
   position: absolute;
@@ -223,4 +226,8 @@ overflow: hidden;
 
   height: 800px;
   width: 100%;
+}
+.figuras{
+  position: relative;
+  top: 20px;
 }
