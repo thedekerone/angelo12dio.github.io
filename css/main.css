@@ -199,7 +199,7 @@ td:hover{
   
   position: relative;
   left: 0%;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
 
 }
 #mover2{
@@ -212,8 +212,8 @@ td:hover{
   width: 100%;
   overflow: hidden;
   background-color: white;
-  height: 532px;
-  padding: 20px 0 20px 0;
+  height: 512px;
+  padding: 10px 0 10px 0;
 
 }
 .toolsM:hover{
