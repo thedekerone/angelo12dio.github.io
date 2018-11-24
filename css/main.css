@@ -196,9 +196,10 @@ td:hover{
 .mover{
   display: inline-block;
   width: 100%;
-
+  
   position: relative;
   left: 0%;
+  padding: 20px 0 20px 0;
 
 }
 #mover2{
@@ -209,8 +210,10 @@ td:hover{
 .slade{
   position: absolute;
   width: 100%;
-overflow: hidden;
+  overflow: hidden;
   background-color: white;
+  height: 552px;
+  padding: 20px 0 20px 0;
 
 }
 .toolsM:hover{
