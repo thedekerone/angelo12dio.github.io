@@ -114,6 +114,7 @@ li a{
   width: 100%;
   height: 710px;
   overflow: hidden;
+  padding-bottom: 50px;
 }
 hr{
   overflow: visible;
@@ -126,7 +127,7 @@ hr{
   width: 30%;
   border: none;
   height: 7px;
-  background-color: white;
+  background-color: #f1cd00;
 }
 .icono::after{
   content:" ";
@@ -235,6 +236,7 @@ td:hover{
   position: relative;
   top: 20px;
   z-index: -99;
+  opacity: 0.6;
 }
 #tnosotros{
   text-align: center;
@@ -254,4 +256,59 @@ td:hover{
 .dintegrantes{
   text-align: center;
   color: white;
+}
+
+.somos{
+    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 190px;
+}
+.medio{
+  padding-top: 140px;
+
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-top: 3px solid;
+  border-color: white;
+
+}
+.somos .info{
+  color: #00afff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+}
+
+#left{
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: -20px;
+
+
+}
+#right{
+  color: white;
+  position: relative;
+  text-align: center;
+  padding-top: 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: -20px;
+  top: -221px;
+}
+.size{
+  font-size: 28px;
+}
+.intro{
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  opacity: 0.85;
+  font-weight: bold;
+  z-index: -50;
 }
