@@ -7,7 +7,7 @@ $(document).ready(function(){
     $(this).scrollTop(0);
 });
 function _hide(){
-  if ((window.pageYOffset)>680) {
+  if ((window.pageYOffset)>$heightB) {
     $(".topbar").fadeOut();
 
   }
