@@ -7,7 +7,7 @@ body{
 
 }
 .topbar{
-  display: none;
+  display: flex;
   overflow: hidden;
   max-height: 80px;
   position: fixed;
@@ -114,7 +114,7 @@ li a{
   width: 100%;
   height: 710px;
   overflow: hidden;
-  padding-bottom: 50px;  
+  padding-bottom: 50px;
 }
 hr{
   overflow: visible;
@@ -197,7 +197,7 @@ td:hover{
 .mover{
   display: inline-block;
   width: 100%;
-  
+
   position: relative;
   left: 0%;
   padding: 10px 0 10px 0;
